@@ -1,0 +1,15 @@
+:root {
+  --clr-dark-100: #1b1b1b;
+  --clr-dark-200: #111111;
+  --clr-dark-300: #151515;
+
+  --clr-light-100: #f6f6f6;
+  --clr-light-200: #b8b8b8;
+  --clr-light-300: #969696;
+  --clr-light-400: #383f3e;
+
+  --clr-primary-100: #35ab82;
+  --clr-primary-200: #3f6a5c;
+
+  --gradient: linear-gradient(90deg, #3fe8ab 0%, #78cdcd 100%);
+}

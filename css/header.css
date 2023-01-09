@@ -1,0 +1,48 @@
+.header {
+  background-color: var(--clr-dark-300);
+  padding-top: 30px;
+  padding-bottom: 63px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .header__menu {
+  display: flex;
+  align-items: center;
+} */
+
+.header__menu-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.header__menu-item {
+  margin-right: 50px;
+}
+
+.header__menu-item:last-child {
+  margin-right: 0;
+}
+
+.header__menu-link {
+  text-decoration: none;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  color: var(--clr-light-100);
+  text-transform: uppercase;
+}
+
+.header__auth {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}

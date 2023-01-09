@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Italic.woff2?v=3.19") format("woff2"),
+    url("fonts/inter/Inter-Italic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  src: url("fonts/inter/Inter-SemiBold.woff2?v=3.19") format("woff2"),
+    url("fonts/inter/Inter-SemiBold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Bold.woff2?v=3.19") format("woff2"),
+    url("fonts/inter/Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/lato/Lato-Regular.eot");
+  src: url("fonts/lato/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/lato/Lato-Regular.woff2") format("woff2"),
+    url("fonts/lato/Lato-Regular.woff") format("woff"),
+    url("fonts/lato/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/lato/Lato-Medium.eot");
+  src: url("fonts/lato/Lato-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/lato/Lato-Medium.woff2") format("woff2"),
+    url("fonts/lato/Lato-Medium.woff") format("woff"),
+    url("fonts/lato/Lato-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/lato/Lato-MediumItalic.eot");
+  src: url("fonts/lato/Lato-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/lato/Lato-MediumItalic.woff2") format("woff2"),
+    url("fonts/lato/Lato-MediumItalic.woff") format("woff"),
+    url("fonts/lato/Lato-MediumItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/lato/Lato-Semibold.eot");
+  src: url("fonts/lato/Lato-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/lato/Lato-Semibold.woff2") format("woff2"),
+    url("fonts/lato/Lato-Semibold.woff") format("woff"),
+    url("fonts/lato/Lato-Semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
