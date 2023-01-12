@@ -2,7 +2,9 @@
   background: var(--clr-dark-300);
   width: 100vw;
   padding: 30px 0;
-  transition: transform 350ms;
+  transition: transform 450ms, opacity 700ms, visibility 300ms;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .mobile-menu__list {
@@ -35,6 +37,8 @@
 
 .mobile-menu_active {
   transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
 }
 
 .mobile-menu_active ~ .burger .burger__line:nth-child(1) {

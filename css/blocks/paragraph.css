@@ -8,3 +8,23 @@
   color: var(--clr-light-300);
   margin: 0;
 }
+
+@media (max-width: 1024px) {
+  .paragraph {
+    font-size: 20px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 940px) {
+  .paragraph {
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

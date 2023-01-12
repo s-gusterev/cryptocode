@@ -8,3 +8,31 @@
   margin: 0;
   text-transform: capitalize;
 }
+
+@media (max-width: 1440px) {
+  .title-primary {
+    font-size: 70px;
+    line-height: 85px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .title-primary {
+    font-size: 60px;
+    line-height: 75px;
+  }
+}
+
+@media (max-width: 940px) {
+  .title-primary {
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-primary {
+    font-size: 40px;
+    line-height: 55px;
+  }
+}
