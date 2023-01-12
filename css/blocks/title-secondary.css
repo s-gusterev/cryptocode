@@ -6,4 +6,5 @@
   letter-spacing: 0em;
   color: var(--clr-light-100);
   margin: 0;
+  text-transform: capitalize;
 }

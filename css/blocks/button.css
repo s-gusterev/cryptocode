@@ -12,6 +12,7 @@
   color: var(--clr-dark-100);
   text-decoration: none;
   transition: color 300ms;
+  border: 0;
 }
 
 .button:hover {

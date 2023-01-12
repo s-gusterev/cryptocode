@@ -8,8 +8,9 @@
 @import url(blocks/title-primary.css);
 @import url(blocks/title-secondary.css);
 @import url(blocks/paragraph.css);
-@import url(blocks/main.css);
 @import url(blocks/hero.css);
 @import url(blocks/crypto.css);
 @import url(blocks/card.css);
 @import url(blocks/card-content.css);
+@import url(blocks/subscribe.css);
+@import url(blocks/footer.css);

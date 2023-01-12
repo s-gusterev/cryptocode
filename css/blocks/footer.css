@@ -1,0 +1,137 @@
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.footer__about {
+  max-width: 400px;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer__nav-block {
+  margin-right: 150px;
+}
+
+.footer__nav-block:last-child {
+  margin-right: 0;
+}
+
+.footer__title {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  color: var(--clr-light-100);
+}
+
+.footer__list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__item {
+  margin-bottom: 16px;
+}
+
+.footer__item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__link {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: var(--clr-light-200);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: opacity 300ms ease-in;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+  color: var(--clr-primary-100);
+}
+
+.footer__list-social {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.footer__item-social {
+  margin-right: 13px;
+}
+.footer__item-social:last-child {
+  margin-right: 0;
+}
+
+.footer__link-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  background: var(--gradient);
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--clr-light-400);
+}
+
+.footer__link-social:hover {
+  background: linear-gradient(
+    90deg,
+    var(--clr-dark-300) 0%,
+    var(--clr-dark-300) 100%
+  );
+  border: 2px solid var(--clr-light-400);
+}
+
+.footer__link-social svg path {
+  transition: all 500ms;
+}
+
+.footer__link-social:hover svg path {
+  fill: var(--clr-light-100);
+}
+
+.footer__copyright {
+  border-top: 2px solid var(--clr-light-400);
+}
+
+.footer__copyright-paragraph {
+  margin-top: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer__copyright-link {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--clr-light-100);
+  transition: opacity 300ms ease-in;
+}
+
+.footer__copyright-link:hover {
+  opacity: 0.8;
+}
