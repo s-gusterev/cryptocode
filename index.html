@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="./images/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="body">
+  <body class="page">
     <header class="header">
       <div class="header__container container">
-        <a class="logo" href=""
+        <a class="logo" href="/"
           ><img class="logo__img" src="images/logo.svg" alt="logo"
         /></a>
         <nav class="header__menu">
@@ -30,10 +30,78 @@
         </nav>
         <nav class="header__auth">
           <a class="header__menu-link" href="#">Login</a>
-          <a class="button" href="#">Register</a>
+          <a class="button button_size_small" href="#">Register</a>
         </nav>
       </div>
     </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__container">
+            <div class="hero__image-container">
+              <img
+                class="hero__image"
+                src="./images/content/mob.svg"
+                alt="mobile"
+              />
+            </div>
+
+            <div class="hero__content">
+              <h1 class="title-primary hero__title">
+                Make easier your crypto transactions.
+              </h1>
+              <p class="paragraph hero__paragraph">
+                Our cryptocurrency offers a fast, secure, and affordable
+                alternative for all of your financial needs. Join the
+                cryptocurrency revolution today and take control of your
+                financial future. Sign up now to start using our platform for
+                yourself.
+              </p>
+              <a class="button button_size_large" href="">Try for free</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="crypto container">
+        <ul class="crypto__partners-list">
+          <li class="crypto__partners-item">
+            <img
+              class="crypto__partners-image"
+              src="./images/partners/1.svg"
+              alt=""
+            />
+          </li>
+          <li class="crypto__partners-item">
+            <img
+              class="crypto__partners-image"
+              src="./images/partners/2.svg"
+              alt=""
+            />
+          </li>
+          <li class="crypto__partners-item">
+            <img
+              class="crypto__partners-image"
+              src="./images/partners/3.svg"
+              alt=""
+            />
+          </li>
+          <li class="crypto__partners-item">
+            <img
+              class="crypto__partners-image"
+              src="./images/partners/4.svg"
+              alt=""
+            />
+          </li>
+          <li class="crypto__partners-item">
+            <img
+              class="crypto__partners-image"
+              src="./images/partners/5.svg"
+              alt=""
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
     <script type="module" src="scripts/main.js"></script>
   </body>
 </html>

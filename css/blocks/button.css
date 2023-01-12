@@ -1,6 +1,5 @@
 .button {
   border-radius: 10px;
-  padding: 14px 30px;
   cursor: pointer;
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -18,4 +17,12 @@
   background: transparent;
   outline: 2px solid var(--clr-primary-200);
   color: var(--clr-light-100);
+}
+
+.button_size_small {
+  padding: 14px 30px;
+}
+
+.button_size_large {
+  padding: 22px 54px;
 }

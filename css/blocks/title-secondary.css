@@ -1,0 +1,9 @@
+.title-secondary {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  color: var(--clr-light-100);
+  margin: 0;
+}

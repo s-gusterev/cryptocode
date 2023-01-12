@@ -1,0 +1,9 @@
+.title-primary {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 95px;
+  letter-spacing: 0em;
+  color: var(--clr-light-100);
+  margin: 0;
+}
