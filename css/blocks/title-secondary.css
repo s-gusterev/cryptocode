@@ -8,3 +8,10 @@
   margin: 0;
   text-transform: capitalize;
 }
+
+@media (max-width: 768px) {
+  .title-secondary {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}

@@ -43,3 +43,40 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+@media (max-width: 1024px) {
+  .card {
+    width: 450px;
+    padding: 80px 82px;
+  }
+
+  .card__title,
+  .card__price {
+    font-size: 44px;
+    line-height: 54px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 450px;
+    padding: 30px 12px;
+  }
+
+  .card__image {
+    margin-bottom: 20px;
+    width: 115px;
+    height: 115px;
+    display: block;
+  }
+
+  .card__title,
+  .card__price {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .card__price {
+    margin-bottom: 36px;
+  }
+}

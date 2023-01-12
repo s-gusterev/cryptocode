@@ -1,15 +1,17 @@
 .crypto {
-  padding: 200px 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
   position: relative;
+  overflow: hidden;
 }
 
 .crypto::after {
   content: "";
   position: absolute;
-  width: 929px;
-  height: 929px;
-  left: 328px;
-  top: 324px;
+  width: 94vw;
+  height: 98vh;
+  left: 10vw;
+  top: 10vh;
   background: var(--clr-primary-100);
   opacity: 0.12;
   filter: blur(200px);
@@ -21,6 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
   margin-top: 0;
@@ -49,4 +52,45 @@
   display: flex;
   flex-direction: column;
   row-gap: 100px;
+}
+
+@media (max-width: 1552px) {
+  .crypto {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .crypto__partners-list {
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+
+  .crypto__cards-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 1260px) {
+  .crypto__cards-content-list {
+    row-gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .crypto__title {
+    margin-bottom: 60px;
+  }
+  .crypto__partners-list {
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
 }
