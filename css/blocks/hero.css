@@ -17,6 +17,7 @@
 
 .hero__content {
   max-width: 850px;
+  z-index: 1;
 }
 
 .hero__title {

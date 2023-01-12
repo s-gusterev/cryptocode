@@ -1,0 +1,27 @@
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-content_direction_reverse {
+  flex-direction: row-reverse;
+}
+
+.card-content__image {
+  width: 100%;
+  max-width: 802px;
+  height: auto;
+}
+
+.card-content__text {
+  max-width: 657px;
+}
+
+.card-content__title {
+  margin-bottom: 30px;
+}
+
+.card-content__paragraph {
+  margin-bottom: 50px;
+}

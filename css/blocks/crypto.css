@@ -1,5 +1,20 @@
 .crypto {
   padding: 200px 0;
+  position: relative;
+}
+
+.crypto::after {
+  content: "";
+  position: absolute;
+  width: 929px;
+  height: 929px;
+  left: 328px;
+  top: 324px;
+  background: var(--clr-primary-100);
+  opacity: 0.12;
+  filter: blur(200px);
+  border-radius: 10px;
+  z-index: -1;
 }
 
 .crypto__partners-list {
@@ -25,4 +40,13 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  z-index: 2;
+}
+
+.crypto__cards-content-list {
+  padding-left: 0;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
 }
