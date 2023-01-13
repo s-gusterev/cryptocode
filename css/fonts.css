@@ -57,8 +57,7 @@
 @font-face {
   font-family: "Lato";
   src: url(../fonts/lato/Lato-MediumItalic.eot);
-  src: url(../fonts/lato/Lato-MediumItalic.eot?#iefix)
-      format("embedded-opentype"),
+  src: url(../fonts/lato/Lato-MediumItalic.eot?#iefix) format("embedded-opentype"),
     url(../fonts/lato/Lato-MediumItalic.woff2) format("woff2"),
     url(../fonts/lato/Lato-MediumItalic.woff) format("woff"),
     url(../fonts/lato/Lato-MediumItalic.ttf) format("truetype");
