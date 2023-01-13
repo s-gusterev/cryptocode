@@ -34,3 +34,9 @@ burger.addEventListener("click", (e) => {
   e.stopPropagation();
   toggleMenu(mobileMenu);
 });
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth === 850) {
+    mobileMenu.classList.remove("mobile-menu_active");
+  }
+});
