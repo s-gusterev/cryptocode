@@ -60,6 +60,10 @@
   transition: all 250ms ease-in-out;
 }
 
+.header__menu-link_line-height_null::after {
+  bottom: -10px;
+}
+
 .header__menu-link:hover {
   opacity: 0.8;
 }

@@ -5,3 +5,49 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+.page_light {
+  background-color: var(--clr-light-100);
+}
+
+.page_light .title-primary {
+  color: var(--clr-dark-100);
+}
+
+.page_light .title-secondary {
+  color: var(--clr-dark-100);
+}
+
+.page_light .button:hover {
+  background: transparent;
+  outline: 2px solid var(--clr-primary-200);
+  color: var(--clr-dark-300);
+}
+
+.page_light .header,
+.page_light .hero,
+.page_light .crypto,
+.page_light .subscribe,
+.page_light .subscribe__input,
+.page_light .subscribe__form {
+  background-color: var(--clr-light-100);
+}
+
+.page_light .header__menu-link,
+.page_light .footer__link,
+.page_light .footer__copyright-link {
+  color: var(--clr-dark-200);
+}
+
+.page_light .card {
+  background: var(--clr-light-100);
+  border: 4px solid var(--clr-light-200);
+}
+
+.page_light .card__title {
+  color: var(--clr-dark-300);
+}
+
+.page_light .button-toggle-theme svg path {
+  fill: var(--clr-dark-300);
+}

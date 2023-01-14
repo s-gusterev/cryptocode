@@ -4,6 +4,12 @@ import "normalize.css";
 const burger = document.querySelector(".burger");
 const mobileMenu = document.querySelector(".mobile-menu");
 
+const btnToogleTheme = document.querySelector(".button-toggle-theme");
+
+const toggleTheme = () => {
+  document.body.classList.toggle("page_light");
+};
+
 const toggleMenu = (menu) => {
   menu.classList.toggle("mobile-menu_active");
   document.addEventListener("keydown", handleEscClose);
@@ -40,3 +46,5 @@ window.addEventListener("resize", () => {
     mobileMenu.classList.remove("mobile-menu_active");
   }
 });
+
+btnToogleTheme.addEventListener("click", toggleTheme);
