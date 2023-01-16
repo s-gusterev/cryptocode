@@ -5,9 +5,20 @@ const burger = document.querySelector(".burger");
 const mobileMenu = document.querySelector(".mobile-menu");
 
 const btnToogleTheme = document.querySelector(".button-toggle-theme");
+const currentTheme = localStorage.getItem("theme");
+
+if (currentTheme == "light") {
+  document.body.classList.add("page_light");
+}
 
 const toggleTheme = () => {
+  let theme = "dark";
   document.body.classList.toggle("page_light");
+
+  if (document.body.classList.contains("page_light")) {
+    theme = "light";
+  }
+  localStorage.setItem("theme", theme);
 };
 
 const toggleMenu = (menu) => {
