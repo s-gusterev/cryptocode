@@ -41,8 +41,9 @@ document.addEventListener("click", (e) => {
   const isMenu = target === mobileMenu || mobileMenu.contains(target);
   const isBurger = target === burger;
   const menuIsActive = mobileMenu.classList.contains("mobile-menu_active");
+  const isToogleTheme = target === !btnToogleTheme;
 
-  if (!isMenu && !isBurger && menuIsActive) {
+  if (!isMenu && !isBurger && menuIsActive && isToogleTheme) {
     toggleMenu(mobileMenu);
   }
 });
