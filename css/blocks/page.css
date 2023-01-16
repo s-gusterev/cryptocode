@@ -29,13 +29,15 @@
 .page_light .crypto,
 .page_light .subscribe,
 .page_light .subscribe__input,
-.page_light .subscribe__form {
+.page_light .subscribe__form,
+.page_light .mobile-menu {
   background-color: var(--clr-light-100);
 }
 
 .page_light .header__menu-link,
 .page_light .footer__link,
-.page_light .footer__copyright-link {
+.page_light .footer__copyright-link,
+.page_light .mobile-menu__link {
   color: var(--clr-dark-200);
 }
 
@@ -49,5 +51,9 @@
 }
 
 .page_light .button-toggle-theme svg path {
-  fill: var(--clr-dark-300);
+  fill: var(--clr-light-200);
+}
+
+.page_light .logo__image path:nth-child(2) {
+  fill: var(--clr-dark-100);
 }

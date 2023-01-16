@@ -11,10 +11,9 @@
   align-items: center;
 }
 
-/* .header__menu {
-  display: flex;
-  align-items: center;
-} */
+.header__menu {
+  margin-left: auto;
+}
 
 .header__menu-list {
   list-style: none;
@@ -77,6 +76,8 @@
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .header__mobile-menu {
@@ -87,7 +88,7 @@
   z-index: 2;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .header {
     padding-bottom: 30px;
   }
@@ -97,5 +98,10 @@
 
   .header__auth {
     display: none;
+  }
+
+  .header__burger {
+    margin-left: auto;
+    margin-right: 20px;
   }
 }
